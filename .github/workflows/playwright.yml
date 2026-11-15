@@ -1,8 +1,9 @@
 name: Playwright LMS Automation CI
 
 on:
+  workflow_dispatch: 
   push:
-    branches: [ main, master ]
+    branches: [ main, master, LMSAutomation_Capproject_main]
   pull_request:
     branches: [ main, master ]
 
